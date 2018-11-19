@@ -1,0 +1,19 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly SSH2DLL, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SSH2DLL.SSH2Class: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Connect(SByte*, SByte*, SByte*): PrivateScope, Public, HideBySig
+    Disconnect(): PrivateScope, Public, HideBySig
+    CreateChannel(): PrivateScope, Public, HideBySig
+    Write(SByte*): PrivateScope, Public, HideBySig
+    Read(): PrivateScope, Public, HideBySig
